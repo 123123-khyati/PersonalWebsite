@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;600&display=swap');
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/************ CUSTOM CSS *****************/
+
+
+.leftMain{
+    background-color: #ffe0e5;
+    padding-top: 90px;
+    width: 30%;
+    text-align: center;
+    position: fixed;
+    height: 100%;
+    float: left;
+}
+.pic{
+    margin-bottom: 30px;
+}
+.leftMain img{
+    height: 276px;
+    width: 276px;
+    border-radius: 50%;
+    /* margin-bottom: 45px; */
+    border: 7px solid rgba(255,255,255,.2);
+    box-sizing: border-box;
+}
+/* .features{
+    display: flex;
+    flex-direction: column;
+}
+.features button{
+    margin-bottom: 18px;
+    font-weight: 700;
+    display: inline;
+    
+} */
+.features{
+    margin-bottom: 26px;
+}
+
+.rightMain{
+    float: right;
+    width: 70%;
+    padding-top: 230px;
+}
+.introduction
+{
+    height: 100vh;
+    text-align: center;
+    
+    
+}
+.name{
+    margin-bottom: 40px;
+}
+.name h1{
+    display: inline-block;
+    font-size : 80px;
+}
+
+
+.name h1:nth-child(2) {
+    color: #ff5884;
+    margin-left: 14px;
+  }
+.subHead{
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+.aboutMe{
+    color: #868e96;
+    padding: 0 12px 0 12px;
+    margin-bottom: 26px ;
+}
+.cv button
+{
+    padding: 12px 22px 12px 22px;
+    background-color: #ffe0e5;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 36px;
+}
+.education , .experience ,.skills{
+    height: 100vh;
+    margin-left:50px ;
+
+
+}
+.college , .school{
+    margin-bottom:50px ;
+}
+.education h1 , .experience h1 , .skills h1 
+{
+    font-size : 70px;
+    color: #ff5884;
+    margin-bottom:66px ;
+
+}
+.college h2 , .school h2 , .tenth h2 , .experience h2 ,.libraries h2,.languages h2
+{
+    font-size: 24px;
+    margin-bottom:20px ;
+    display: inline-block;
+    
+    
+}
+.college h4,.college h3 ,.school h4 ,.tenth h4 , .experience h4
+{
+    color: #868e96;
+    margin-bottom: 5px;
+}
+.college span ,.school span ,.tenth span,.experience span
+{
+    float: right;
+    margin-right: 10px ;
+    color: #ff5884;
+    font-weight: 800;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////// */
+/* Reset default list styles */
+.heart-list {
+    list-style: none;
+    padding-left: 0;
+  }
+/* Add baby pink heart symbol before each list item */
+
+.heart-list li::before {
+    content: "\2665"; /* Unicode for the heart symbol */
+    color: #ffb6c1; /* Baby pink color */
+    margin-right: 10px; /* Adjust the spacing between the heart and the text */
+  }
+  /* ----------- */
+  .skills li{
+    color: #868e96;
+    margin-bottom: 20px;
+  }
+  .languages .heart-list{
+    margin-bottom: 40px;
+  }
+  .gmail img ,.phone img{
+    height: 36px;
+    width: 36px;
+    margin-right: 12px;
+
+  }
+  .gmail , .phone{
+    display:flex;
+    align-items: center;
+    padding: 0 12px 0 12px;
+
+  }
+  .gmail span, .phone span{
+    color: #ff5884;
+    font-weight: 600;
+  }
+  .gmail{
+    margin-bottom: 20px;
+  }
+  /* //////// */
+ /* Beautiful button styles */
+/* Global reset to remove default button styles */
+/* Global reset to remove default button styles */
+
+  
+  
+  
+  /* Beautiful button styles with gradient background */
+  .beautiful-button {
+    background-image: linear-gradient(to right, #ff9eb3, #ffffff); /* Gradient with pink and white */
+    color: #868e96;
+    color: black;
+    font-weight: 500;
+    padding: 8px 14px; /* Adjust padding to make the button look good */
+    border-radius: 8px; /* Round the corners of the button */
+    font-size: 12px; /* Font size of the text */
+    text-transform: uppercase; /* Convert text to uppercase */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+    border: none;
+    cursor: pointer;
+    outline: none;
+    margin-right: 10px;
+  }
+  
+  /* Hover effect */
+  .beautiful-button:hover {
+    background-image: linear-gradient(to right, #ff6699, #ffffff); /* Gradient with a slightly darker pink and white */
+  }
